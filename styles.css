@@ -1,0 +1,74 @@
+body { 
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    margin 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4ad34e;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+h1, h2, h3, h4, h5, p {
+    text-align: center;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.planeta {
+    display: flex;
+    justify-content: center;
+}
+.tipos {
+    align-items: center;
+}
+img { 
+    border-radius: 50px;
+}
+li {
+    text-align: center;
+}
+.pa {
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+
+}
+.contatos {
+    
+    display:block;
+    align-items: center;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: space-between;
+}
